@@ -1,0 +1,908 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ApperaFrontendTask</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap"
+    />
+  </head>
+
+  <body>
+    <div class="page-wrapper">
+      <img
+        src="./assets/backgrounds/background sec-.png"
+        alt="Kid holding a book"
+        class="background-img"
+      />
+      <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Brandname</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#"
+                  >Product</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#"
+                  >Pricing</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#"
+                  >Contact</a
+                >
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <button
+                class="btn start-quote borderless-button bold-orange"
+                type="submit"
+              >
+                Login
+              </button>
+              <button id="join-us" class="btn orange-fill-button" type="submit">
+                Join Us ➜
+              </button>
+            </form>
+          </div>
+        </div>
+      </nav>
+
+      <div class="header-row-padding">
+        <row>
+          <h6 class="start-quote col-lg-8 orange-bold-text">
+            For Better Future
+          </h6>
+          <h1 class="col-lg-8 header-screen-headers">
+            HIGH QUALITY<br />COURSES
+          </h1>
+          <p class="col-lg-8">
+            Every day brings with it a fresh<br />set of learning possibilities
+          </p>
+          <form class="d-flex" role="search">
+            <button class="btn start-quote orange-fill-button" type="submit">
+              Get Quote Now
+            </button>
+            <button class="btn borderless-button" type="submit">
+              Learn More
+            </button>
+          </form>
+        </row>
+      </div>
+      <div class="container px-4 py-5 -down" id="featured-3">
+        <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
+          <div class="feature col">
+            <div
+              class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3"
+            >
+              <img
+                src="./assets/icons/fixed-width sec-.png"
+                style="background-color: white"
+              />
+              <use xlink:href="#collection"></use>
+            </div>
+            <h3 class="fs-4 text-body-emphasis">Expert Instruction</h3>
+            <img
+              src="./assets/icons/fixed-width fixed-height sec-.png"
+              class="hr-img"
+            />
+            <p>
+              The gradual accumulation of information about atomic and
+              small-scale behaviour...
+            </p>
+          </div>
+          <div class="feature col">
+            <div
+              class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3"
+            >
+              <img
+                src="./assets/icons/fixed-width sec--2.png"
+                style="background-color: white"
+              />
+              <use xlink:href="#people-circle"></use>
+            </div>
+            <h3 class="fs-4 text-body-emphasis">Training Courses</h3>
+            <img
+              src="./assets/icons/fixed-width fixed-height sec-.png"
+              class="hr-img"
+            />
+            <p>
+              The gradual accumulation of information about atomic and
+              small-scale behaviour...
+            </p>
+          </div>
+          <div class="feature col">
+            <div
+              class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3"
+            >
+              <img
+                src="./assets/icons/fixed-width sec--3.png"
+                style="background-color: white"
+              />
+              <use xlink:href="#toggles2"></use>
+            </div>
+            <h3 class="fs-4 text-body-emphasis">Lifetime Access</h3>
+            <img
+              src="./assets/icons/fixed-width fixed-height sec-.png"
+              class="hr-img"
+            />
+            <p>
+              The gradual accumulation of information about atomic and
+              small-scale behaviour...
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="row section-margin-up section-margin-down">
+        <div class="col-lg-6 pencilGirl">
+          <img
+            class="img-fluid"
+            src="./assets/pictures/thumb-concept.png"
+            alt="Girl holding a giant pencil"
+          />
+        </div>
+        <div class="col-lg-6 header-row-padding">
+          <img
+            src="./assets/icons/fixed-width fixed-height sec-.png"
+            id="big-hr"
+          />
+          <h2>Get Quiality<br />Education</h2>
+          <p>
+            Problems trying to resolve the conflict between the two major realms
+            of Classical physics: Newtonian mechanics
+          </p>
+          <button id="learn-more" class="btn" type="submit">
+            Learn More <img src="./assets/icons/icon arrow-next.png" />
+          </button>
+        </div>
+        <div class="container section-margin-up section-margin-down">
+          <div class="row">
+            <div class="col-lg-2 col-md-4 col-sm-6 icon-margin">
+              <img
+                src="./assets/icons/hooli.png"
+                alt="Company Logo 1"
+                class="img-fluid"
+              />
+            </div>
+            <div class="col-lg-2 col-md-4 col-sm-6 icon-margin">
+              <img
+                src="./assets/icons/lyft.png"
+                alt="Company Logo 2"
+                class="img-fluid"
+              />
+            </div>
+            <div class="col-lg-2 col-md-4 col-sm-6 icon-margin">
+              <img
+                src="./assets/icons/hat.png"
+                alt="Company Logo 3"
+                class="img-fluid"
+              />
+            </div>
+            <div class="col-lg-2 col-md-4 col-sm-6 icon-margin">
+              <img
+                src="./assets/icons/stripe.png"
+                alt="Company Logo 4"
+                class="img-fluid"
+              />
+            </div>
+            <div class="col-lg-2 col-md-4 col-sm-6 icon-margin">
+              <img
+                src="./assets/icons/aws.png"
+                alt="Company Logo 5"
+                class="img-fluid"
+              />
+            </div>
+            <div class="col-lg-2 col-md-4 col-sm-6 icon-margin">
+              <img
+                src="./assets/icons/reddit.png"
+                alt="Company Logo 6"
+                class="img-fluid"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      style="background-color: #26335d"
+      class="section-margin-up section-margin-down"
+    >
+      <div class="container py-3">
+        <header>
+          <div class="pricing-header p-3 pb-md-4 mx-auto">
+            <h6 class="orange-bold-text">Practice Advice</h6>
+            <h1 style="color: white">Our Popular COurses</h1>
+            <p style="color: white" class="fs-7">
+              Problems trying to resolve the conflict between <br />
+              the two major realms of Classical Physics: Newtonian mech
+            </p>
+          </div>
+        </header>
+        <main>
+          <div class="row row-cols-1 row-cols-md-3 mb-3">
+            <div class="col">
+              <div class="card mb-4 rounded-3 shadow-sm border-primary">
+                <div class="position-relative">
+                  <img
+                    src="./assets/pictures/product-cover-124 sec-.png"
+                    class="card-img-top"
+                    alt=""
+                  />
+                  <div class="sale-mark">SALE</div>
+                  <div class="circle-buttons">
+                    <button class="circle-button">
+                      <i class="bi bi-heart"></i>
+                    </button>
+                    <button class="circle-button">
+                      <i class="bi bi-cart"></i>
+                    </button>
+                    <button class="circle-button">
+                      <i class="bi bi-eye-fill"></i>
+                    </button>
+                  </div>
+                </div>
+                <div class="card-body">
+                  <h6 class="card-title orange-bold-text">training Courses</h6>
+                  <div class="star-rating">
+                    <i class="bi bi-star-fill"></i> 4.9
+                  </div>
+                  <h3 class="fs-4 text-body-emphasis subtitle">
+                    Video in Live Action
+                  </h3>
+                  <p class="card-text">
+                    We focus on ergonomics and meeting you where you work. It's
+                    only a keystroke away.
+                  </p>
+                  <div class="sales-info">
+                    <i class="bi bi-download"></i> 15 Sales
+                  </div>
+                  <div class="pricing">
+                    <span class="old-price">$16.48</span>
+                    <span class="discounted-price">$6.48</span>
+                  </div>
+                  <button
+                    type="button"
+                    class="btn btn-sm btn-primary learn-more-btn"
+                  >
+                    Learn More
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card mb-4 rounded-3 shadow-sm border-primary">
+                <div class="position-relative">
+                  <img
+                    src="./assets/pictures/product-cover-125 sec-.png"
+                    class="card-img-top"
+                    alt=""
+                  />
+                  <div class="sale-mark">SALE</div>
+                  <div class="circle-buttons">
+                    <button class="circle-button">
+                      <i class="bi bi-heart"></i>
+                    </button>
+                    <button class="circle-button">
+                      <i class="bi bi-cart"></i>
+                    </button>
+                    <button class="circle-button">
+                      <i class="bi bi-eye-fill"></i>
+                    </button>
+                  </div>
+                </div>
+                <div class="card-body">
+                  <h6 class="card-title orange-bold-text">Books Liberary</h6>
+                  <div class="star-rating">
+                    <i class="bi bi-star-fill"></i> 4.9
+                  </div>
+                  <h3 class="fs-4 text-body-emphasis subtitle">
+                    Every Client Matters
+                  </h3>
+                  <p class="card-text">
+                    We focus on ergonomics and meeting you where you work. It's
+                    only a keystroke away.
+                  </p>
+                  <div class="sales-info">
+                    <i class="bi bi-download"></i> 15 Sales
+                  </div>
+                  <div class="pricing">
+                    <span class="old-price">$16.48</span>
+                    <span class="discounted-price">$6.48</span>
+                  </div>
+                  <button
+                    type="button"
+                    class="btn btn-sm btn-primary learn-more-btn"
+                  >
+                    Learn More
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card mb-4 rounded-3 shadow-sm border-primary">
+                <div class="position-relative">
+                  <img
+                    src="./assets/pictures/product-cover-126 sec-.png"
+                    class="card-img-top"
+                    alt=""
+                  />
+                  <div class="sale-mark">SALE</div>
+                  <div class="circle-buttons">
+                    <button class="circle-button">
+                      <i class="bi bi-heart"></i>
+                    </button>
+                    <button class="circle-button">
+                      <i class="bi bi-cart"></i>
+                    </button>
+                    <button class="circle-button">
+                      <i class="bi bi-eye-fill"></i>
+                    </button>
+                  </div>
+                </div>
+                <div class="card-body">
+                  <h6 class="card-title orange-bold-text">Certified Teacher</h6>
+                  <div class="star-rating">
+                    <i class="bi bi-star-fill"></i> 4.9
+                  </div>
+                  <h3 class="fs-4 text-body-emphasis subtitle">
+                    Get Quiality Education
+                  </h3>
+                  <p class="card-text">
+                    We focus on ergonomics and meeting you where you work. It's
+                    only a keystroke away.
+                  </p>
+                  <div class="sales-info">
+                    <i class="bi bi-download"></i> 15 Sales
+                  </div>
+                  <div class="pricing">
+                    <span class="old-price">$16.48</span>
+                    <span class="discounted-price">$6.48</span>
+                  </div>
+                  <button
+                    type="button"
+                    class="btn btn-sm btn-primary learn-more-btn"
+                  >
+                    Learn More
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </main>
+      </div>
+    </div>
+
+    <div class="container py-3">
+      <header>
+        <div class="pricing-header p-3 pb-md-4 mx-auto">
+          <h6 class="orange-bold-text">Practice Advice</h6>
+          <h2>Watch our Courses</h2>
+          <p class="fs-7">
+            Problems trying to resolve the conflict between <br />
+            the two major realms of Classical Physics: Newtonian mech
+          </p>
+        </div>
+      </header>
+      <main>
+        <div class="row row-cols-1 row-cols-md-3 mb-3">
+          <div class="col">
+            <div
+              class="card mb-4 rounded-3 shadow-sm"
+              style="padding: 25px; margin-right: 20px"
+            >
+              <img
+                src="./assets/icons/circle sec-.png"
+                class="orange-heart"
+                alt=""
+              />
+              <h4>FREE</h4>
+              <p>Organize across all apps by hand</p>
+              <h1 class="card-title pricing-card-title">
+                19$<small class="text-body-secondary fw-light"></small>
+              </h1>
+              <p style="color: #8ec2f2">per month</p>
+              <p>Slate helps you see how <br />many more days you need...</p>
+              <div class="card-body">
+                <button
+                  type="button"
+                  class="w-100 btn btn-lg btn-primary orange-fill-button"
+                >
+                  Try for free
+                </button>
+                <ul class="list-unstyled mt-3 mb-4">
+                  <li>
+                    <img src="./assets/icons/green-tick.png" />Unlimited product
+                    updates
+                  </li>
+                  <li>
+                    <img src="./assets/icons/green-tick.png" />Unlimited product
+                    updates
+                  </li>
+                  <li>
+                    <img src="./assets/icons/green-tick.png" />Unlimited product
+                    updates
+                  </li>
+                  <li>
+                    <img src="./assets/icons/gray-tick.png" />1GB Cloud storage
+                  </li>
+                  <li>
+                    <img src="./assets/icons/gray-tick.png" />Email and
+                    community support
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div
+              class="card mb-4 rounded-3 shadow-sm"
+              style="padding: 25px; margin-right: 20px"
+            >
+              <img
+                src="./assets/icons/circle sec-.png"
+                class="orange-heart"
+                alt=""
+              />
+              <span class="new-circle">New</span>
+              <h4>FREE</h4>
+              <p>Organize across all apps by hand</p>
+              <h1 class="card-title pricing-card-title">
+                19$<small class="text-body-secondary fw-light"></small>
+              </h1>
+              <p style="color: #8ec2f2">per month</p>
+              <p>Slate helps you see how <br />many more days you need...</p>
+              <div class="card-body">
+                <button
+                  type="button"
+                  class="w-100 btn btn-lg btn-primary orange-fill-button"
+                >
+                  Try for free
+                </button>
+                <ul class="list-unstyled mt-3 mb-4">
+                  <li>
+                    <img src="./assets/icons/green-tick.png" />Unlimited product
+                    updates
+                  </li>
+                  <li>
+                    <img src="./assets/icons/green-tick.png" />Unlimited product
+                    updates
+                  </li>
+                  <li>
+                    <img src="./assets/icons/green-tick.png" />Unlimited product
+                    updates
+                  </li>
+                  <li>
+                    <img src="./assets/icons/gray-tick.png" />1GB Cloud storage
+                  </li>
+                  <li>
+                    <img src="./assets/icons/gray-tick.png" />Email and
+                    community support
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div
+              class="card mb-4 rounded-3 shadow-sm"
+              style="padding: 25px; margin-right: 20px"
+            >
+              <img
+                src="./assets/icons/circle sec-.png"
+                class="orange-heart"
+                alt=""
+              />
+              <h4>FREE</h4>
+              <p>Organize across all apps by hand</p>
+              <h1 class="card-title pricing-card-title">
+                19$<small class="text-body-secondary fw-light"></small>
+              </h1>
+              <p style="color: #8ec2f2">per month</p>
+              <p>Slate helps you see how <br />many more days you need...</p>
+              <div class="card-body">
+                <button
+                  type="button"
+                  class="w-100 btn btn-lg btn-primary orange-fill-button"
+                >
+                  Try for free
+                </button>
+                <ul class="list-unstyled mt-3 mb-4">
+                  <li>
+                    <img src="./assets/icons/green-tick.png" />Unlimited product
+                    updates
+                  </li>
+                  <li>
+                    <img src="./assets/icons/green-tick.png" />Unlimited product
+                    updates
+                  </li>
+                  <li>
+                    <img src="./assets/icons/green-tick.png" />Unlimited product
+                    updates
+                  </li>
+                  <li>
+                    <img src="./assets/icons/gray-tick.png" />1GB Cloud storage
+                  </li>
+                  <li>
+                    <img src="./assets/icons/gray-tick.png" />Email and
+                    community support
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </main>
+    </div>
+    <div class="container py-3 section-margin-up">
+      <header>
+        <div class="pricing-header p-3 pb-md-4 mx-auto">
+          <h6 class="orange-bold-text">Practice Advice</h6>
+          <h2>Approdable Packages</h2>
+          <p class="fs-7">
+            Problems trying to resolve the conflict between <br />
+            the two major realms of Classical Physics: Newtonian mech
+          </p>
+        </div>
+      </header>
+    </div>
+    <div class="container mt-5">
+      <div class="row">
+        <div class="col-md-4">
+          <div class="testimonial-card">
+            <div class="user-star-rating">
+              <i class="bi-star-fill"></i>
+              <i class="bi-star-fill"></i>
+              <i class="bi-star-fill"></i>
+              <i class="bi-star-fill"></i>
+              <i class="bi-star-half"></i>
+            </div>
+            <p class="mb-4">
+              Slate helps you see how many more days you need to work to reach
+              your financial goal for the month and year.
+            </p>
+            <div class="d-flex align-items-center justify-content-center mb-4">
+              <img
+                style="max-width: 50px; max-height: 50px"
+                src="./assets/pictures/testimonial1.png"
+                alt="Profile Picture 1"
+                class="profile-picture"
+              />
+              <p style="font-size: 11px; font-weight: bold">
+                <button
+                  style="font-size: 14px"
+                  id="learn-more"
+                  class="btn"
+                  type="submit"
+                >
+                  Regina Miles</button
+                ><br />Designer
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="testimonial-card">
+            <div class="star-rating">
+              <span class="text-warning"
+                >&#9733;&#9733;&#9733;&#9733;&#9733;</span
+              >
+            </div>
+            <div class="user-star-rating">
+              <i class="bi-star-fill"></i>
+              <i class="bi-star-fill"></i>
+              <i class="bi-star-fill"></i>
+              <i class="bi-star-fill"></i>
+              <i class="bi-star-half"></i>
+            </div>
+            <p class="mb-4">
+              Slate helps you see how many more days you need to work to reach
+              your financial goal for the month and year.
+            </p>
+            <div class="d-flex align-items-center justify-content-center mb-4">
+              <img
+                style="max-width: 50px; max-height: 50px"
+                src="./assets/pictures/testimonial2.png"
+                alt="Profile Picture 1"
+                class="profile-picture"
+              />
+              <p style="font-size: 11px; font-weight: bold">
+                <button
+                  style="font-size: 14px"
+                  id="learn-more"
+                  class="btn"
+                  type="submit"
+                >
+                  Regina Miles</button
+                ><br />Designer
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="testimonial-card">
+            <div class="star-rating">
+              <span class="text-warning"
+                >&#9733;&#9733;&#9733;&#9733;&#9733;</span
+              >
+            </div>
+            <div class="user-star-rating">
+              <i class="bi-star-fill"></i>
+              <i class="bi-star-fill"></i>
+              <i class="bi-star-fill"></i>
+              <i class="bi-star-fill"></i>
+              <i class="bi-star-half"></i>
+            </div>
+            <p class="mb-4">
+              Slate helps you see how many more days you need to work to reach
+              your financial goal for the month and year.
+            </p>
+            <div class="d-flex align-items-center justify-content-center mb-4">
+              <img
+                style="max-width: 50px; max-height: 50px"
+                src="./assets/pictures/testimonial3.png"
+                alt="Profile Picture 1"
+                class="profile-picture"
+              />
+              <p style="font-size: 11px; font-weight: bold">
+                <button
+                  style="font-size: 14px"
+                  id="learn-more"
+                  class="btn"
+                  type="submit"
+                >
+                  Regina Miles</button
+                ><br />Designer
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <section class="newsletter-section">
+      <div class="row">
+        <div
+          class="col-md-12 d-flex flex-column align-items-center justify-content-center"
+        >
+          <h6 class="orange-bold-text">Newsletter</h6>
+          <h4 style="font-weight: bold; margin-top: 20px; margin-bottom: 10px">
+            Most Popula Courses
+          </h4>
+          <p style="text-align: center">
+            Problems trying to resolve the conflict between<br />
+            the two major realms of Classical physics: Newtonian mechanics .
+          </p>
+        </div>
+      </div>
+      <div class="row">
+        <div
+          class="col-md-12 d-flex flex-column align-items-center justify-content-center"
+        >
+          <form class="subscribe-form" action="#" method="post">
+            <div class="input-group">
+              <input
+                type="email"
+                class="form-control col-md-8"
+                placeholder="Enter your email"
+                required
+              />
+              <button type="submit" class="btn btn-primary orange-fill-button">
+                Subscribe
+              </button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <div class="container section-margin-up">
+      <footer class="py-5">
+        <div class="row">
+          <div class="col-lg-2 col-md-6 col-sm-12 mb-3">
+            <h5>Company Info</h5>
+            <ul class="nav flex-column">
+              <li class="nav-item mb-2">
+                <a href="#" class="nav-link p-0 text-body-secondary"
+                  >About Us</a
+                >
+              </li>
+              <li class="nav-item mb-2">
+                <a href="#" class="nav-link p-0 text-body-secondary">Carrier</a>
+              </li>
+              <li class="nav-item mb-2">
+                <a href="#" class="nav-link p-0 text-body-secondary"
+                  >We are hiring</a
+                >
+              </li>
+              <li class="nav-item mb-2">
+                <a href="#" class="nav-link p-0 text-body-secondary">Blog</a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="col-lg-2 col-md-6 col-sm-12 mb-3">
+            <h5>Legal</h5>
+            <ul class="nav flex-column">
+              <li class="nav-item mb-2">
+                <a href="#" class="nav-link p-0 text-body-secondary"
+                  >About Us</a
+                >
+              </li>
+              <li class="nav-item mb-2">
+                <a href="#" class="nav-link p-0 text-body-secondary">Carrier</a>
+              </li>
+              <li class="nav-item mb-2">
+                <a href="#" class="nav-link p-0 text-body-secondary"
+                  >We are hiring</a
+                >
+              </li>
+              <li class="nav-item mb-2">
+                <a href="#" class="nav-link p-0 text-body-secondary">Blog</a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="col-lg-2 col-md-6 col-sm-12 mb-3">
+            <h5>Features</h5>
+            <ul class="nav flex-column">
+              <li class="nav-item mb-2">
+                <a href="#" class="nav-link p-0 text-body-secondary"
+                  >Bussiness Marketing</a
+                >
+              </li>
+              <li class="nav-item mb-2">
+                <a href="#" class="nav-link p-0 text-body-secondary"
+                  >User Analytic</a
+                >
+              </li>
+              <li class="nav-item mb-2">
+                <a href="#" class="nav-link p-0 text-body-secondary"
+                  >Live Chat</a
+                >
+              </li>
+              <li class="nav-item mb-2">
+                <a href="#" class="nav-link p-0 text-body-secondary"
+                  >Unlimited Support</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="col-lg-2 col-md-6 col-sm-12 mb-3">
+            <h5>Resources</h5>
+            <ul class="nav flex-column">
+              <li class="nav-item mb-2">
+                <a href="#" class="nav-link p-0 text-body-secondary"
+                  >iOS & Android</a
+                >
+              </li>
+              <li class="nav-item mb-2">
+                <a href="#" class="nav-link p-0 text-body-secondary"
+                  >Watch a demo</a
+                >
+              </li>
+              <li class="nav-item mb-2">
+                <a href="#" class="nav-link p-0 text-body-secondary"
+                  >Customers</a
+                >
+              </li>
+              <li class="nav-item mb-2">
+                <a href="#" class="nav-link p-0 text-body-secondary">API</a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-12 mb-3">
+            <h5>Get in Touch</h5>
+            <ul class="nav flex-column">
+              <li class="nav-item mb-2">
+                <a href="#" class="nav-link p-0 text-body-secondary"
+                  ><img
+                    src="./assets/icons/phone.png"
+                    style="max-width: 25pxpx; margin-right: 15px"
+                  />(480) 555-0103</a
+                >
+              </li>
+              <li class="nav-item mb-2">
+                <a href="#" class="nav-link p-0 text-body-secondary">
+                  <img
+                    src="./assets/icons/map.png"
+                    style="max-width: 22px; margin-right: 15px"
+                  />
+                  Washington Ave. Manchester, Kentucky 39495</a
+                >
+              </li>
+              <li class="nav-item mb-2">
+                <a href="#" class="nav-link p-0 text-body-secondary"
+                  ><img
+                    src="./assets/icons/mail.png"
+                    style="max-width: 22px; margin-right: 15px"
+                  />
+                  debra.holt@example.com</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div
+          class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top "
+        >
+          <div class="col-10" style="margin-top: 15px;">
+            <p style="font-weight: 600">
+              Made With Love By Figmaland All Right Reserved
+            </p>
+          </div>
+          <div class="col-2">
+          <ul class="list-unstyled d-flex">
+            <li class="ms-3">
+              <a class="link-body-emphasis" href="#">
+                <img
+                  src="assets/icons/facebook.png"
+                  alt="Facebook"
+                  width="24"
+                  height="24"
+                />
+              </a>
+            </li>
+            <li class="ms-3">
+              <a class="link-body-emphasis" href="#">
+                <img
+                  src="assets/icons/instagram.png"
+                  alt="Instagram"
+
+                />
+              </a>
+            </li>
+            <li class="ms-3">
+              <a class="link-body-emphasis" href="#">
+                <img
+                  src="assets/icons/twitter.png"
+                  alt="Twitter"
+                  width="24"
+                  height="24"
+                />
+              </a>
+            </li>
+          </ul>
+        </div>
+        </div>
+      </footer>
+    </div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
